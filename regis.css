@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins' ,sans-serif;
+  }
+  /* ini body */
+  body {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    min-height: 100vh;
+    
+  }
+  /* CSS SIGN UP & SIGN IN */
+/* ini css header */
+  header {
+  background-image: url(/Asset/about-bg.jpg);
+  /* width: 10px 10px; */
+  padding: 12%;
+  }
+  
+  .containersignup,
+  .containersignin {
+    max-width: 400px;
+    /* margin: 0 auto; */
+ 
+    padding: 20px;
+    background-image: linear-gradient(
+      rgb(189, 184, 184),
+      rgb(102, 96, 97),
+      rgb(20, 20, 20)
+    );
+    
+    border-radius: 10px;
+    box-shadow: 0 50px 50px #707171;
+    letter-spacing: 1px;
+  }
+  .form-container {
+    background-color: #fff7f7;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+.signup-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+    background-image: linear-gradient(
+      rgb(255, 255, 255),
+      rgb(135, 127, 129),
+      rgb(255, 255, 255)
+    );
+  }
+  .signin-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+    background-image: linear-gradient(
+      rgb(255, 255, 255),
+      rgb(232, 188, 199),
+      rgb(255, 255, 255)
+    );
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333333;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .button-signup button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(58, 255, 121);
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 302px;
+  }
+  .button-signup button:hover {
+    background-color: #e60000;
+  }
+  .button-signin button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(0, 255, 81);
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 305px;
+  }
+  /* ini css buat nekan akan berubah warna */
+  .button-signin button:hover {
+    background-color: #e60000;
+  }
+  .dont p {
+    text-align: center;
+    margin-top: 15px;
+  }
